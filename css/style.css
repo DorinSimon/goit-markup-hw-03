@@ -163,6 +163,7 @@ margin-left:24px;
   background: var(--background-gray);
   justify-content: center;
   align-items: center;
+  
 }
 
 .main-title {
@@ -173,16 +174,17 @@ margin-left:24px;
   line-height: 60px;
   text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
-  align-content: center;
-  justify-content: center;
+  text-transform: uppercase; 
   color: var(--white-color);
+  margin-bottom: 30px;
+  font-family: 'Roboto';
+font-style: normal;
 }
 
 .button-request {
   width: 200px;
   height: 50px;
-  background: var(--white-color);
+  background: var(--text-color-bleu);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: 0px;
@@ -193,14 +195,6 @@ margin-left:24px;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.06em;
-  color: var(--text-color-black);
-}
-
-.button-request:hover {
-  background: var(--text-color-bleu);
-}
-
-.button-request:hover span {
   color: var(--white-color);
 }
 
